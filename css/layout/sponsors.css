@@ -1,0 +1,158 @@
+#content-wrapper #sponsors h1 {
+  font-size: 120px;
+  line-height: 0.8em;
+  margin-block-start: 27px;
+}
+
+#sponsors .blurb {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  font-size: 24px;
+  line-height: 60px;
+  text-align: center;
+}
+
+#sponsors .blurb strong {
+  font-weight: normal;
+  font-family: "Hero", "Helvetica Neue", Arial, sans-serif;
+}
+
+#sponsors .blurb a {
+  background: var(--color-white);
+  color: var(--color-yellow);
+  padding: 0.1em 0.3em;
+  font-family: "Hero", "Helvetica Neue", Arial, sans-serif;
+}
+
+#sponsors .blurb a:hover {
+  background: var(--color-red);
+}
+
+#sponsors .spnsr-list {
+  list-style: none;
+  margin: 0;
+  position: absolute;
+  top: 120px;
+}
+
+#sponsors .spnsr-list li {
+  position: absolute;
+  width: 310px;
+  height: 100px;
+  margin: 10px;
+  text-align: center;
+}
+
+#sponsors .spnsr-list li.half {
+  width: 145px;
+}
+
+#sponsors .spnsr-list li.n2 {
+  left: 330px;
+}
+#sponsors .spnsr-list li.n5 {
+  left: 165px;
+}
+#sponsors .spnsr-list li.n7,
+#sponsors .spnsr-list li.n10 {
+  left: 825px;
+}
+#sponsors .spnsr-list li.n3,
+#sponsors .spnsr-list li.n6,
+#sponsors .spnsr-list li.n9 {
+  left: 660px;
+}
+#sponsors .spnsr-list li.n4,
+#sponsors .spnsr-list li.n5,
+#sponsors .spnsr-list li.n6,
+#sponsors .spnsr-list li.n7 {
+  top: 120px;
+}
+#sponsors .spnsr-list li.n8,
+#sponsors .spnsr-list li.n9,
+#sponsors .spnsr-list li.n10 {
+  top: 240px;
+}
+
+#sponsors .spnsr-list li a {
+  background-image: url("../../assets/img/sponsors.png");
+  height: 100%;
+  display: block;
+}
+
+#sponsors .spnsr-list li a:hover {
+  background-color: var(--color-white);
+}
+
+#sponsors .victory {
+  background-position: 0 0;
+}
+#sponsors .nclud {
+  background-position: 0 -100px;
+}
+#sponsors .pruf {
+  background-position: 0 -200px;
+}
+#sponsors .browser-media {
+  background-position: 0 -300px;
+}
+
+#sponsors .hanerino {
+  background-position: -5px -400px;
+}
+#sponsors .argyle {
+  background-position: -160px -400px;
+}
+#sponsors .bold {
+  background-position: -8px -600px;
+}
+#sponsors .howaboutwe {
+  background-position: -160px -600px;
+}
+#sponsors .function {
+  background-position: -5px -700px;
+}
+#sponsors .hashrocket {
+  background-position: -164px -700px;
+}
+
+#sponsors .spnsr-list li.open {
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 100px;
+  border: 2px solid;
+  font-family: "Hero", "Helvetica Neue", Arial, sans-serif;
+  color: var(--color-white);
+}
+
+#sponsors .fontfabric {
+  width: 310px;
+  height: 40px;
+  margin: 10px;
+  left: 330px;
+  position: absolute;
+  top: 240px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 21px;
+  text-transform: uppercase;
+}
+
+#sponsors .fontfabric b {
+  font-family: "Hero", "Helvetica Neue", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 26px;
+  text-transform: none;
+}
+
+#sponsors .fontfabric a {
+  display: block;
+  background: var(--color-white);
+  color: var(--color-dark);
+}
+
+#sponsors .fontfabric a:hover {
+  background: var(--color-red);
+  color: var(--color-yellow);
+}

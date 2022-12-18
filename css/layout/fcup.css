@@ -1,0 +1,139 @@
+#content-wrapper #fcup h1 {
+  font-size: 146px;
+}
+
+#fcup h1 .tournament,
+#teams h1 .tournament {
+  display: inline-block;
+  font-size: 69px;
+  line-height: 0.8em;
+}
+
+#fcup h1 .tournament span,
+#teams h1 .tournament span {
+  display: block;
+}
+
+#fcup .arrow {
+  position: absolute;
+
+  font-size: 60px;
+  width: 200px;
+  left: 395px;
+  top: 150px;
+}
+
+#fcup .arrow a {
+  display: block;
+  background: var(--color-white);
+  color: var(--color-yellow);
+  line-height: 0.7em;
+  text-align: center;
+  padding-block-start: 10px;
+  text-transform: uppercase;
+  font-family: "Hero", "Helvetica Neue", Arial, sans-serif;
+}
+
+#fcup .arrow a span {
+  z-index: 2;
+  position: relative;
+}
+
+#fcup .arrow a .sign-up {
+  font-size: 40px;
+}
+
+#fcup .arrow a:after {
+  content: "";
+  display: block;
+  border-style: solid;
+  border-color: var(--color-white) transparent;
+  border-width: 50px 130px 0;
+  position: absolute;
+  bottom: -40px;
+  left: -30px;
+  z-index: 1;
+}
+
+#fcup .arrow a:hover {
+  background: var(--color-red);
+}
+
+#fcup .arrow a:hover:after {
+  border-color: var(--color-red) transparent;
+}
+
+#fcup .rules-title {
+  font-weight: normal;
+  font-family: "MOD", "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 52px;
+  line-height: 0.8em;
+  position: absolute;
+  bottom: 0;
+  color: var(--color-yellow);
+  background: var(--color-dark);
+  height: 54px;
+  line-height: 54px;
+  padding: 0 60px;
+  left: 340px;
+}
+
+#fcup .rules-title:after {
+  content: "";
+  display: block;
+  border-style: solid;
+  border-color: transparent var(--color-dark);
+  border-width: 26px 0 26px 26px;
+  position: absolute;
+  top: 1px;
+  right: -26px;
+}
+
+#fcup .rules {
+  width: 315px;
+  position: absolute;
+  top: 150px;
+  left: 675px;
+}
+
+#fcup .rules ul {
+  list-style: none;
+  margin: 0;
+}
+
+#fcup .rules li {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.4em;
+  padding: 6px 10px;
+  margin-block-end: 2px;
+  color: var(--color-yellow);
+  background: var(--color-dark);
+}
+
+#fcup .rules li:last-child {
+  border-bottom: none;
+}
+
+#fcup .copy-content {
+  width: 290px;
+  position: absolute;
+  left: 10px;
+  top: 180px;
+}
+
+#fcup .copy-content h3 {
+  font-family: "Hero", "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 0.9em;
+  margin-block-end: 20px;
+}
+
+#fcup .copy-content p {
+  font-size: 18px;
+  margin-block-end: 0.8em;
+}

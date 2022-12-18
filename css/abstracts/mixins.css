@@ -1,0 +1,225 @@
+.faux3d #content-wrapper section,
+.faux3d #content-wrapper,
+.faux3d #main-content-wrapper {
+  transform-origin: center 450px;
+}
+
+.faux3d #featuring-section {
+  transform: scale(0.3333);
+}
+
+.faux3d #sponsors {
+  transform: scale(0.1111);
+}
+
+.faux3d #fcup {
+  transform: scale(0.037);
+}
+
+.faux3d #teams {
+  transform: scale(0.01234);
+}
+
+.faux3d #loading-totem {
+  transform: scale(0.0013717421124828531);
+}
+
+.csstransforms3d #main-content-wrapper {
+  width: 100%;
+  height: 540px;
+  perspective: 500px;
+  perspective-origin: center 450px;
+}
+
+.csstransforms3d #content-wrapper {
+  transform-style: preserve-3d;
+}
+
+.csstransforms3d #featuring-section {
+  transform: translate3d(0, 0, -1000px);
+}
+
+.csstransforms3d #sponsors {
+  transform: translate3d(0, 0, -2000px);
+}
+
+.csstransforms3d #fcup {
+  transform: translate3d(0, 0, -3000px);
+}
+
+.csstransforms3d #teams {
+  transform: translate3d(0, 0, -4000px);
+}
+
+.csstransforms3d #loading-totem {
+  transform: translate3d(0, 0, -6000px);
+}
+
+html {
+  overflow-y: scroll;
+}
+
+a:hover,
+a:active {
+  outline: none;
+}
+
+a,
+a:active,
+a:visited {
+  color: var(--color-white);
+}
+a:hover {
+  color: var(--color-red);
+}
+
+ul,
+ol {
+  margin-inline-start: 2em;
+}
+ol {
+  list-style-type: decimal;
+}
+
+nav ul,
+nav li {
+  margin: 0;
+}
+
+label,
+input[type="button"],
+input[type="submit"],
+input[type="image"],
+button {
+  cursor: pointer;
+}
+
+button {
+  width: auto;
+  overflow: visible;
+}
+
+.ie7 img {
+  -ms-interpolation-mode: bicubic;
+}
+
+.ir {
+  display: block;
+  text-indent: -999em;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  text-align: left;
+  direction: ltr;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.csstransforms .main-body {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+
+.csstransforms #half-screen {
+  height: 50%;
+  width: 100%;
+}
+
+#container-lg {
+  margin: 0 auto;
+  width: 990px;
+}
+
+.csstransforms #container-lg {
+  position: relative;
+  height: 540px;
+  top: -270px;
+}
+
+.csstransforms #content-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.no-csstransforms #container-lg,
+.no-js #container-lg {
+  margin-block-start: 60px;
+  position: relative;
+}
+
+.no-csstransforms #content-wrapper section,
+.no-js #content-wrapper section {
+  width: 100%;
+  height: 540px;
+  margin-block-end: 100px;
+  position: relative;
+}
+
+.csstransforms #content-wrapper section {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.csstransforms #content-wrapper.transitions-on {
+  transition: transform 1s;
+}
+
+#loading-totem {
+  text-align: center;
+}
+
+#totem {
+  display: inline-block;
+  margin-block-start: 300px;
+}
+
+.csstransforms.no-touch #scroll-proxy {
+  height: 5400px;
+}
+.csstransforms.no-touch .sign-up #scroll-proxy {
+  height: 0;
+}
+
+body {
+  transition: background-color 0.5s;
+}
+
+body.sign-up {
+  background-color: var(--color-dark);
+}
+
+.csstransforms #content-wrapper,
+.csstransforms #nav {
+  transition: opacity 0.5s;
+}
+
+.csstransforms .sign-up #sign-up-form {
+  opacity: 1;
+  display: block;
+}
+
+.csstransforms .sign-up #content-wrapper,
+.csstransforms .sign-up #nav {
+  opacity: 0.3;
+  pointer-events: none;
+}

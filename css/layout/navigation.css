@@ -1,0 +1,51 @@
+#nav {
+  list-style: none;
+  margin: 0;
+  position: absolute;
+  z-index: 100;
+  top: 0;
+}
+
+.touch #nav {
+  top: -20px;
+}
+
+#nav li {
+  float: left;
+  margin-inline-end: 2px;
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  line-height: 1.4em;
+}
+
+.touch #nav li {
+  font-size: 24px;
+}
+
+#nav li a {
+  display: block;
+  background: var(--color-white);
+  color: var(--color-dark);
+  padding: 0.1em 2em 0 0.5em;
+}
+
+#nav li a:hover {
+  background: var(--color-red);
+  color: var(--color-yellow);
+}
+
+#nav li.current a {
+  background: var(--color-dark);
+  color: var(--color-yellow);
+}
+
+#content-wrapper #nav {
+  display: none;
+}
+
+.no-csstransforms #nav {
+  position: fixed;
+  top: 10px;
+}

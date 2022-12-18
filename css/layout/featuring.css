@@ -1,0 +1,140 @@
+#content-wrapper #featuring-section h1 {
+  margin-block-start: 24px;
+  font-size: 161px;
+  line-height: 0.9em;
+}
+
+#featuring-section .feature {
+  width: 310px;
+  margin-inline: auto;
+  position: absolute;
+  top: 170px;
+  height: 360px;
+  border-bottom: 10px solid;
+}
+
+#featuring-section .feature h2,
+#featuring-section .feature span {
+  display: block;
+  text-align: center;
+}
+
+#featuring-section .feature h2 {
+  font-weight: normal;
+  font-family: "MOD", "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+  border-top: 10px solid;
+  border-bottom: 10px solid;
+  font-size: 88px;
+  line-height: 0.9em;
+}
+
+#featuring-section .provided {
+  font-family: "Hero", "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 0.6em;
+  line-height: 2em;
+  padding-block-start: 0.4em;
+}
+
+#featuring-section .feature p strong {
+  display: block;
+}
+
+#featuring-section .feature p strong span {
+  font-weight: normal;
+  font-size: 58px;
+  text-transform: uppercase;
+  line-height: 1.1em;
+  display: block;
+}
+
+#featuring-section .feature p strong span.victory {
+  font-size: 72px;
+}
+#featuring-section .feature p strong span.brewing {
+  font-size: 63px;
+}
+#featuring-section .feature p strong span.company {
+  font-size: 62px;
+}
+
+#featuring-section .music {
+  right: 0;
+}
+
+#featuring-section .feature p strong span a {
+  font-family: "Hero", "Helvetica Neue", Arial, sans-serif;
+}
+
+#featuring-section .music p .artist {
+  border-top: 2px solid;
+}
+
+#featuring-section .music p strong {
+  padding: 3px 0;
+}
+
+#featuring-section .music p .artist {
+  font-size: 42px;
+}
+#featuring-section .music p .link {
+  font-size: 20px;
+}
+
+#featuring-section .music p .richard-gear .artist {
+  font-size: 34px;
+}
+#featuring-section .music p .richard-gear .link {
+  font-size: 19px;
+}
+
+#featuring-section .links {
+  position: absolute;
+  bottom: 0px;
+  width: 310px;
+  left: 330px;
+  margin: 0 10px;
+  background: var(--color-white);
+  height: 40px;
+  padding: 5px 0;
+  font-family: "Hero", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+#featuring-section .links a {
+  color: var(--color-red);
+}
+
+#featuring-section .links a:hover {
+  background: var(--color-yellow);
+}
+
+#featuring-section .blurb {
+  font-family: "Hero", "Helvetica Neue", Arial, sans-serif;
+  width: 310px;
+  position: absolute;
+  margin: 0 10px;
+  left: 330px;
+  top: 170px;
+  line-height: 1.4em;
+  text-align: justify;
+  font-size: 13px;
+}
+
+#featuring-section .blurb p {
+  margin-block-end: 10px;
+}
+
+#featuring-section .blurb .badge {
+  font-size: 20px;
+  text-align: center;
+  line-height: 32px;
+  background: var(--color-dark);
+  color: var(--color-yellow);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 16px;
+}

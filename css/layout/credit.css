@@ -1,0 +1,21 @@
+#credit {
+  position: absolute;
+  left: 405px;
+  bottom: -40px;
+  width: 180px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 16px;
+  font-family: "Hero", "Helvetica Neue", Arial, sans-serif;
+}
+
+#credit a {
+  color: var(--color-dark);
+  display: block;
+  padding-inline-start: 10px;
+  background: url("../../assets/img/sponsors.png") -130px -566px;
+}
+
+#credit a:hover {
+  background-color: var(--color-white);
+}

@@ -1,0 +1,140 @@
+#content-wrapper #intro-section h1 {
+  font-family: "MOD", "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 176px;
+  text-align: center;
+  line-height: 160px;
+  margin-block-start: 20px;
+}
+
+#content-wrapper #intro-section h1.beerception {
+  font-size: 132px;
+  color: var(--color-red);
+}
+
+#intro-section h2 {
+  font-family: "MOD", "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 128px;
+  text-align: center;
+  line-height: 0.8em;
+  position: absolute;
+  top: 170px;
+  width: 100%;
+  white-space: pre;
+}
+
+#intro-section time,
+#intro-section .location {
+  position: absolute;
+  width: 330px;
+  top: 285px;
+}
+
+/* Date */
+#intro-section time span {
+  display: block;
+  text-align: center;
+}
+
+#intro-section time .day-of-week {
+  text-transform: uppercase;
+  font-size: 76px;
+  line-height: 0.9em;
+}
+
+#intro-section time .day {
+  font-size: 64px;
+  text-transform: uppercase;
+  font-family: "Hero", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1em;
+}
+
+#intro-section time .day i {
+  font-style: normal;
+  background: var(--color-dark);
+  font-size: 0.9em;
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: top;
+  display: inline-block;
+  color: var(--color-yellow);
+  text-align: center;
+  line-height: 1.3em;
+  position: relative;
+  top: -0.15em;
+  border-radius: 0.6em;
+}
+
+#intro-section time .year {
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 0.8em;
+  letter-spacing: 0.5em;
+  word-spacing: 0.3em;
+  font-family: "Hero", "Helvetica Neue", Arial, sans-serif;
+}
+
+#intro-section time .time {
+  font-size: 32px;
+  line-height: 1.6em;
+  letter-spacing: 0.05em;
+}
+
+#intro-section .location {
+  right: 0;
+  top: 280px;
+}
+
+#intro-section .location h3 {
+  font-family: "MOD", "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 104px;
+  line-height: 0.9em;
+}
+
+#intro-section .location a * {
+  display: block;
+  text-align: center;
+}
+
+#intro-section .location a p {
+  background: var(--color-white);
+  color: var(--color-dark);
+  width: 96%;
+  margin: 0 auto;
+  color: var(--color-yellow);
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-block-end: 4px;
+  line-height: 1em;
+  padding-block-start: 0.15em;
+}
+
+#intro-section .location a p.city {
+  font-size: 54px;
+}
+
+#intro-section .location a:hover h3 {
+  color: var(--color-red);
+}
+#intro-section .location a:hover p {
+  background: var(--color-red);
+}
+
+#intro-section .blurb {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  font-family: "MOD", "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+  width: 100%;
+  font-size: 47px;
+  color: var(--color-yellow);
+  text-shadow: 2px 0px var(--color-dark), 2px 2px var(--color-dark),
+    0px 2px var(--color-dark), -2px 2px var(--color-dark),
+    -2px 0px var(--color-dark), -2px -2px var(--color-dark),
+    0px -2px var(--color-dark), 2px -2px var(--color-dark);
+  letter-spacing: 1px;
+}

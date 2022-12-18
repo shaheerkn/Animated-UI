@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "MOD";
+  src: url("../../assets/fonts/mod-webfont.eot");
+  src: local("â˜º"), url("../../fonts/mod-webfont.woff") format("woff"),
+    url("../../assets/fonts/mod-webfont.ttf") format("truetype"),
+    url("../../assets/fonts/mod-webfont.svg#webfontp2bXIvvD") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hero";
+  src: url("hero-webfont.html");
+  src: local("â˜º"), url("../../fonts/hero-webfont.woff") format("woff"),
+    url("../../assets/fonts/hero-webfont.ttf") format("truetype"),
+    url("../../assets/fonts/hero-webfont.svg#webfontecycPgIx") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hero Light";
+  src: url("../../fonts/hero_light-webfont.eot");
+  src: local("â˜º"), url("../../fonts/hero_light-webfont.woff") format("woff"),
+    url("../../assets/fonts/hero_light-webfont.ttf") format("truetype"),
+    url("../../assets/fonts/hero_light-webfont.svg#webfontnHVzXbDa")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
